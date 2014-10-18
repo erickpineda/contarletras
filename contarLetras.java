@@ -15,11 +15,11 @@ public class contarLetras {
 		contar(caracteres);
 		mostraResultado(caracteres);
 	}
-
+	
 	public void pidoFrase() {
 		System.out.println("-> Escribe una frase: ");
 	}
-
+	//Paso un array que contendrá el número de letras del abecedario
 	public void contar(int[] abc) {
 		Scanner lector = new Scanner(System.in);
 		String frase = lector.nextLine();
