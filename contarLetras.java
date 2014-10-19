@@ -8,7 +8,7 @@ public class contarLetras {
 		contarLetras ejec = new contarLetras();
 		ejec.inicio();
 	}
-
+	//Comentario desde projecte1
 	public void inicio() {
 		int[] caracteres = new int[26];
 		pidoFrase()
