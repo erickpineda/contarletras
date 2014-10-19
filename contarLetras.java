@@ -8,14 +8,14 @@ public class contarLetras {
 		contarLetras ejec = new contarLetras();
 		ejec.inicio();
 	}
-	//Comentario desde projecte1
+	//Comentario desde projecte1 
 	public void inicio() {
 		int[] caracteres = new int[26];
 		pidoFrase()
 		contar(caracteres);
 		mostraResultado(caracteres);
 	}
-	//Comentario desde projecte2	
+	//Comentario desde projecte2 
 	public void pidoFrase() {
 		System.out.println("-> Escribe una frase: ");
 	}
