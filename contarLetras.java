@@ -15,7 +15,7 @@ public class contarLetras {
 		contar(caracteres);
 		mostraResultado(caracteres);
 	}
-	
+	//Comentario desde projecte2	
 	public void pidoFrase() {
 		System.out.println("-> Escribe una frase: ");
 	}
